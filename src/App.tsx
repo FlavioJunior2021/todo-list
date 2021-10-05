@@ -1,6 +1,6 @@
-import {useState} from 'react'
-import * as C  from './App.styles'
-import {} from  './types'
+import {useState} from 'react';
+import * as C  from './App.styles';
+import {} from  './types.item'
 
 const App = () => {
 
