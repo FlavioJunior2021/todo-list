@@ -1,11 +1,19 @@
-import { Container } from './app.styles'
+import {useState} from 'react'
+import * as C  from './App.styles'
+import {} from  './types'
 
 const App = () => {
 
-  return (
-    <Container>
+  const [List, setList] = useState([])
 
-    </Container>
+  return (
+    <C.Container>
+      <C.Area>
+        <C.Header>
+          Lista de tarefas
+        </C.Header>
+      </C.Area>
+    </C.Container>
   );
 }
 export default App
